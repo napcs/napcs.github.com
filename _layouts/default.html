@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <title>{{ page.title }}</title>
+     <meta name="author" content="Brian Hogan" />
+
+     <!-- Homepage CSS -->
+     <link rel="stylesheet" href="/stylesheets/reset.css" type="text/css" media="screen, projection" />
+     <link rel="stylesheet" href="/stylesheets/960.css" type="text/css" media="screen, projection" />
+     <link rel="stylesheet" href="/stylesheets/text.css" type="text/css" media="screen, projection" />
+     <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
+ 
+
+  </head>
+  <body>
+    <div id="banner" class="container_12">
+      <a href="/"><img src="http://www.napcs.com/images/napcs_logo.png" border="0" alt="New Auburn Personal Computer Services" height="80" width="377" /></a>
+    </div>
+    
+    <div id="content" class="container_12">
+      <div class="grid_8">
+      {{ content }}
+      </div>
+      <div class="grid_4">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="http://github.com/napcs/docbook/">Short Attention Span Docbook:</a></li>
+          <li><a href="http://github.com/napcs/lazy_developer/">Lazy Developer</a></li>
+          <li><a href="http://github.com/napcs/reverse_proxy_fix/">Reverse Proxy Fix</a></li>
+          <li><a href="http://github.com/napcs/authlogic_base/">Authlogic Base</a>, a Rails base app with Cucumber, Rspec, and complete user signup</li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div id="footer" class="container_12">
+      <p>Copyright &copy; 2009 New Auburn Personal Computer Services LLC
+    </div>
+  </body>
+</html>

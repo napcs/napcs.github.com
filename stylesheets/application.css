@@ -1,0 +1,10 @@
+body{
+  -moz-background-clip:border;
+  -moz-background-inline-policy:continuous;
+  -moz-background-origin:padding;
+  background:transparent url(http://www.napcs.com/images/header_sliver.png) repeat-x scroll center top;
+  font-family:arial,sans-serif;
+  font-size:12px;
+  line-height:18px;
+}
+#content{margin-top:20px;}
